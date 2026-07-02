@@ -1,25 +1,26 @@
-**🎧 Spotify Project Summary - Time-Based Data Analysis Project**
+# 🎧 Spotify Project Summary - Time-Based Data Analysis Project 
 
-<br>
 🎯The project analyzes Spotify user listening behavior using time-based event data. Each record represents a single listening event,including user interactions with tracks over time. The goal is to understand how users engage with music,identify listening pattern and derive insights to improve recommendations systems and user retention strategies.
 
-<br>
-🧠Key Business Questions
-<br>
+---
+
+## 🧠Key Business Questions
+
 This analysis focus on answering:
 
-
-User Behavior
+🎧User Behavior
 <br>
-🎧What are the most frequented played artists and tracks?
+What are the most frequented played artists and tracks?
 <br>
 How do listening preferences differ accros users?
+<br>
 
 ⏰Time-Based Behavior
 <br>
 When do users listen to must most(huor/day trends)?
 <br>
 How does user acitivity change over time?
+
 
 🔁Engagement And Retention
 <br>
@@ -33,72 +34,116 @@ Can users be grouped based on listening behavior?
 <br>
 What segments show the highest engagement?
 
-
-🛠️Tools And Technologies 
-<br>
-Python(Pandas)
-<br>
-SQL(data aggregation & KPI computation)
-<br>
-Power BI Dashboard
+---
 
 
-🔁Project Workflow
-<br>
+## 🛠️Tools And Technologies 
+
+   -**Database**: MySQL
+   <br>
+   -**Languages**：Python(Pandas),SQL(data aggregation & KPI computation)
+   <br>
+   -**Visualization**:Power BI Dashboard
+
+
+---
+
+
+## 🔁Project Workflow
 Data(Spotify listening logs):
 <br>
-Data - MySQL - SQL - Pandas -Time-based Analysis - User Segmentation - visualization dashboard - business insights
+Data ➡️ MySQL ➡️ SQL ➡️ Pandas➡️ Time-based Analysis ➡️ User Segmentation ➡️ visualization dashboard ➡️ business insights
+
+---
 
 
-Steps Involved
-<br>
-1. Data Cleaning
-   <br>
-   Remove duplicate lisenting events
-   <br>
-   Handle missing timestamps or track info
-   <br>
-   Standaridze datetime format
+## 🔧Steps Involved
+### 1. Data Cleaning
 
-2. Exploratory Data Analysis (EDA)
-   <br>
-   Top artists & tracks
-   <br>
-   Distributions of listening duration
-   <br>
-   Most active users
+   - Remove duplicate lisenting events
+   - Handle missing timestamps or track info
+   - Standaridze datetime format
 
-3. Time-Based Analysis
-   <br>
-   Total listening time per user
-   <br>
-   Repeat listening behavior
-   <br>
-   Engagement frequency
+### 2. Exploratory Data Analysis (EDA)
 
-4. User segmentation
-   <br>
-   Heavy user vs casual user
-   <br>
-   Genre/artist preference clusters
-   <br>
-   Avtivity-based grouping
+   - Top artists & tracks
+   - Distributions of listening duration
+   - Most active users
+
+### 3. Time-Based Analysis
+  
+   - Total listening time per user
+   - Repeat listening behavior
+   - Engagement frequency
+
+### 4. User segmentation
+  
+   - Heavy user vs casual user
+   - Genre/artist preference clusters
+   - Avtivity-based grouping
 
 
-📊Key Outputs
-<br>
-Top artists & track rankings
-<br>
-Time-based engagement charts
-<br>
-User segmentation results
-<br>
-Listening trend analysis
-<br>
-Business insights report
+---
 
-   
-   
+
+## 📊Key Outputs
+   - Top artists & track rankings
+   - Time-based engagement charts
+   - User segmentation results
+   - Listening trend analysis
+   - Business insights report
+
+
+---
+
+
+## 💡 Key Insight
+   - Users show peak listening activity during [X hours]
+   - A small group of users contributes majority of listening time
+   - Certain genres dominate long-duration listening sessions
+
+
+---
+
+
+## 📈 Business Recommendations
+   - Improve recommendation timing based on peak usage hours
+   - Target low-engagement users with personalized playlists
+   - Optimize content recommendation for high-retention user groups
+
+
+---
+
+
+## 📦 Final Deliverables
+   - Jupyter Notebook (EDA + analysis)
+   - SQL query scripts
+   - Visualization dashboard
+   - Final business report (PDF or Markdown)
+   - GitHub documentation
+
+
+---
+### ✅ Page 1: Home  
+> Overview – Overall user engagement
+
+
+
+---
+### ✅ Page 2: User Behavior
+> User Listening Behavior Analysis
+
+
+
+---
+### ✅ Page 3:Time-Based Analysis
+> Listening Activity Over Time
+
+
+
+---
+### ✅ Page 4:Content & Music Preference
+> Music Preference & Content Insights
 
 
 
