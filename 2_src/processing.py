@@ -1,21 +1,13 @@
-import pandas as pd
+import numpy as np
 
 
 class Preprocessor:
 
-    def clean(self, df: pd.DataFrame):
+    def normalize(self, df, features):
 
-        # drop null
-        df = df.dropna()
+        df = df.copy()
 
-        # keep only needed features
-        features = [
-            "danceability",
-            "energy",
-            "valence",
-            "tempo",
-            "acousticness",
-            "instrumentalness"
-        ]
+        for f in features:
+            df[f] = (df[f] - df[f].mean()) / df[f].std()
 
-        return df[features]
+        return df
